@@ -10,4 +10,4 @@ def calculator(a, b, sign):
 
 
 calculator(2, 3, '*')
-calculator(2,2,'+')
+calculator(2, 2, '+')
