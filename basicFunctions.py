@@ -4,6 +4,7 @@ def calculator(a, b, sign):
     elif sign == '-':
         print(a - b)
         print("you just subtracted two numbers")
+        print(a+b+b)
     elif sign == '*':
         print(a * b)
     else:
