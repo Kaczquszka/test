@@ -11,12 +11,18 @@ def calculator(a, b, sign):
         print("wtf")    
     else:
         if b == 0:
-            print("pamiętaj cholero nie dziel przez zero")
+            print("hola hola")
+            print(" pamiętaj cholero nie dziel przez zero")
             return 0
         else:
-            print(a / b)
+            print(a / b, " masz szczescie")
 
 
 calculator(2, 3, '*')
 calculator(2, 2, '+')
 calculator(2, 0, '/')
+def primeNumber(a):
+    if(a == 8):
+        print( a)
+
+primeNumber( 8 )    
