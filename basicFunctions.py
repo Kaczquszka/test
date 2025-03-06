@@ -3,9 +3,11 @@ def calculator(a, b, sign):
         print(a + b)
     elif sign == '-':
         print(a - b)
+        print(a+b+b)
     elif sign == '*':
         print(a * b)
     else:
+        print("lalallal")
         print(a / b)
 
 
