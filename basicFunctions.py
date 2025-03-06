@@ -11,7 +11,7 @@ def calculator(a, b, sign):
     elif sign == '*':
         print(a * b)
     elif sign == 'h':
-        print("wtf")    
+        print("wtf")   
     else:
         if b == 0:
             print("pamiętaj cholero nie dziel przez zero")
