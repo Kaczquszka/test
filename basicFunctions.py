@@ -2,7 +2,7 @@ def calculator(a, b, sign):
     if sign == '+':
         print(a + b)
     elif sign == '-':
-        print(a + b)
+        print(a - b)
         print("you just subtracted two numbers")
     elif sign == '*':
         print(a * b)
