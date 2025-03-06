@@ -2,7 +2,7 @@ def calculator(a, b, sign):
     if sign == '+':
         print(a + b)
     elif sign == '-':
-        print(a - b)
+        print(a + b)
     elif sign == '*':
         print(a * b)
     else:
