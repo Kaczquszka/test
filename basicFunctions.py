@@ -7,9 +7,13 @@ def calculator(a, b, sign):
     elif sign == '*':
         print(a * b)
     else:
-        print(a / b)
-        print("pamiętaj cholero nie dziel przez zero")
+        if b == 0:
+            print("pamiętaj cholero nie dziel przez zero")
+            return 0
+        else:
+            print(a / b)
 
 
 calculator(2, 3, '*')
 calculator(2, 2, '+')
+calculator(2, 0, '/')
