@@ -10,7 +10,7 @@ def calculator(a, b, sign):
         print(a+b+b)
     elif sign == '*':
         print(a * b)
-    elif sign=='h':
+    elif sign == 'h':
         print("wtf")    
     else:
         if b == 0:
