@@ -3,10 +3,12 @@ def calculator(a, b, sign):
         print(a + b)
     elif sign == '-':
         print(a + b)
+        print("you just subtracted two numbers")
     elif sign == '*':
         print(a * b)
     else:
         print(a / b)
+        print("pamiętaj cholero nie dziel przez zero")
 
 
 calculator(2, 3, '*')
