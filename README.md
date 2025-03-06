@@ -1,1 +1,1 @@
-test repository by marta and marysia <<<3
+test repository by Marta and Marysia <<<3
